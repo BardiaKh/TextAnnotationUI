@@ -1,0 +1,85 @@
+[
+    {
+        "name": "Pneumothorax",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Pleural Effusion",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Pleural Other",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Fracture",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Atelectasis",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Pneumonia",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Consolidation",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Edema",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Lung Lesion",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Lung Opacity",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Cardiomegaly",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Enlarged Cardiomediastinum",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Support Devices",
+        "type": "select",
+        "options": ["Present", "Absent", "Not Mentioned", "Uncertain"],
+        "default": "Not Mentioned"
+    },
+    {
+        "name": "Extra Notes",
+        "type": "text",
+        "default": ""
+    }
+]

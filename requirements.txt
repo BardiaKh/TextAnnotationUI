@@ -1,0 +1,4 @@
+# the default package dependencies
+
+gradio == 3.47.1
+pandas == 1.4.3
