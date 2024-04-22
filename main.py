@@ -154,7 +154,7 @@ if __name__ == '__main__':
             with gr.Column(scale=4):
                 report = gr.TextArea(value=fetch_report(0), label="Note:", interactive=False, show_label=True, scale=2)
             with gr.Column(scale=2):
-                stats_box = gr.Markdown(value= "", scale=1)
+                stats_box = gr.Markdown(value= "")
                 with gr.Row():
                     jump_to = gr.Slider(minimum=1, maximum=NUM_NOTES, step=1, value=1, label="Jump to:", interactive=True, scale=1)
                 with gr.Row():
@@ -173,7 +173,7 @@ if __name__ == '__main__':
                     response_vars.append(gr.Textbox(lines=1, label=question['name'], value=question['default'], type="text", interactive=True, scale=1))
     
         with gr.Row():
-            hints = gr.Markdown(value=HINTS, scale=1, interactive=False)
+            hints = gr.Markdown(value=HINTS)
     
         prev_btn.click(fn=prev_report, inputs=[stats, stats_box, *response_vars], outputs=[report, stats_box, stats, jump_to, *response_vars])
         next_btn.click(fn=next_report, inputs=[stats, stats_box, *response_vars], outputs=[report, stats_box, stats, jump_to, *response_vars])
@@ -189,7 +189,6 @@ if __name__ == '__main__':
         server_name="0.0.0.0",
         server_port=1900,
         show_api=False,
-        enable_queue=True,
         auth_message="Please enter your username and password to continue"
     )
 
